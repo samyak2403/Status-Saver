@@ -1,0 +1,32 @@
+<resources>
+    <dimen name="banner_height">62dp</dimen>
+    <dimen name="ads_height">270dp</dimen>
+
+    <dimen name="button_radius">@dimen/_20sdp</dimen>
+    <dimen name="button_padding_vertical">@dimen/_8sdp</dimen>
+    <dimen name="button_text_size">@dimen/_12sdp</dimen>
+
+    <dimen name="toolbar_text_size">@dimen/_12ssp</dimen>
+
+    <dimen name="card_radius">@dimen/_5sdp</dimen>
+    <dimen name="card_radius_media">@dimen/_5sdp</dimen>
+    <dimen name="card_elevation">1dp</dimen>
+
+    <dimen name="dialog_button_text_size">@dimen/_10ssp</dimen>
+
+    <dimen name="no_items_found">@dimen/_13ssp</dimen>
+
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="subtitle_txt">16sp</dimen>
+    <dimen name="title_txt">18sp</dimen>
+
+</resources>

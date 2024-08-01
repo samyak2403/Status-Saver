@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202020">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--backbutton-->
+    <ImageView
+        android:id="@+id/wa_backButton"
+        style="@style/BackButton"
+        android:layout_height="?actionBarSize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="#FFFFFF" />
+
+    <LinearLayout
+        android:id="@+id/ma_contant_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="?actionBarSize"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <!--delete items-->
+        <ImageView
+            android:id="@+id/deleteIV"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:padding="@dimen/_2sdp"
+            android:src="@drawable/delete_icon"
+
+            app:tint="#FFFFFFFF" />
+
+        <!--shere items-->
+        <ImageView
+            android:id="@+id/shareIV"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:padding="@dimen/_2sdp"
+            android:src="@drawable/share"
+            app:tint="#FFFFFFFF" />
+
+
+        <!--wa lottie-->
+        <ImageView
+            android:id="@+id/wAppIV"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/repost"
+            app:tint="#FFFFFFFF" />
+    </LinearLayout>
+
+
+    <!--Download items-->
+    <TextView
+        android:id="@+id/downloadIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/_40sdp"
+        android:background="@drawable/background_button"
+        android:paddingHorizontal="@dimen/_15sdp"
+        android:paddingVertical="@dimen/_5sdp"
+        android:text="@string/download"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

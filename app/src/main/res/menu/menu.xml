@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/gallery"
+        android:icon="@drawable/gall_icon"
+        android:title="Saved Status" />
+
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/recommend_to_friend"
+        android:title="Share" />
+
+    <item
+        android:id="@+id/nav_rate_us"
+        android:icon="@drawable/ic_round_rate"
+        android:title="Rate Us" />
+    <item
+        android:id="@+id/nav_feedback"
+        android:icon="@drawable/feedback"
+        android:title="Feedback" />
+
+    <item
+        android:id="@+id/nav_privacy"
+        android:icon="@drawable/privacy"
+        android:title="Privacy Policy" />
+
+</menu>

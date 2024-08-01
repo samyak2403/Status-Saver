@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StatusSaverMessageRecover" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="Theme.StatusSaverMessageRecover" parent="Base.Theme.StatusSaverMessageRecover" />
+
+    <!--  Chip padding and his TextSize-->
+    <style name="ThinnerChip" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="chipCornerRadius">12dp</item>
+        <item name="chipMinHeight">25dp</item>
+        <item name="android:textAppearance">@style/SmallerText</item>
+    </style>
+
+    <style name="SmallerText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--    Toolbar title text size-->
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!--layout design starts here-->
+
+    <style name="BackButton"> <!--back button-->
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:padding">@dimen/_5sdp</item>
+        <item name="android:src">@drawable/back_icon</item>
+        <item name="android:layout_width">@dimen/_38sdp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:tint">@color/black</item>
+    </style>
+</resources>

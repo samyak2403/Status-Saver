@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "32863047401",
+    "project_id": "satus-saver-aa5b5",
+    "storage_bucket": "satus-saver-aa5b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32863047401:android:b34d5a2da535b4b9afaa78",
+        "android_client_info": {
+          "package_name": "com.arrowwould.statussaver.photovideo.saveimages"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfdCn4ZeN5VYzz6oZTVwbyVRE89t9kkgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

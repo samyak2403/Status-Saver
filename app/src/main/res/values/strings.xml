@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Status Saver</string>
+    <string name="default_notification_channel_id">101</string>
+
+    <string name="developer_name">Eshbcode Apps</string>
+    <string name="email_feedback">mangroliyasureshbhai.app@gmail.com</string>
+    <string name="policy_url">https://google.com/</string>
+
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+
+    <string name="user_image">User image</string>
+    <string name="your_messages_will_appear_here">Your Messages will appear here</string>
+    <string name="deleted_message">This message was deleted</string>
+    <string name="signal_deleted_message">This message was deleted.</string>
+    <string name="welcome">Welcome</string>
+    <string name="intro_text_one">WE will allow you to recover deleted WhatsApp messages by reading your notifications</string>
+    <string name="notice">Notice</string>
+    <string name="intro_text_two">If you have silenced a chat or watching it when the message gets deleted, you will not receive a notification so WE can\'t help in this case. \n \n WhatsDeleted can\'t recover messages that have been deleted before you installed this app.</string>
+    <string name="setup">Setup</string>
+    <string name="notification_notice">This allow the app to backup your notifications and messages in case they are deleted</string>
+    <string name="notification_reader">Notification reader</string>
+    <string name="enable">Enable</string>
+
+    <string name="are_you_sure">Are You Sure..</string>
+    <string name="no_post_available">Sorry.. No Posts Available.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="wapp_permission">Click Allow Storage button and Allow permission to access your status</string>
+
+    <string name="allow_storage_access">Allow storage</string>
+    <string name="downloaded_status">Downloaded Status</string>
+
+
+    <string name="wa">Whatsapp</string>
+    <string name="wa_status">Whatsapp Status</string>
+    <string name="wab">Whatsapp Business</string>
+
+
+    <string name="delete_status_items">Are you sure, You Want To Delete This Status?</string>
+    <string name="delete_files_items">Are you sure , You want to delete selected files?</string>
+    <string name="recent_status">Recent Status</string>
+    <string name="download">Download</string>
+
+
+
+    <string name="share_app_message">Status Saver &amp; Message Recover for Whatsapp\n\nHello Let me Recommend you this App Download easy way to recover your Whatsapp status and messages\n </string>
+
+
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+</resources>

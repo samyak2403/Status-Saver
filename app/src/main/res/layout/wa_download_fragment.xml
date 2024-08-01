@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <GridView
+        android:id="@+id/videoGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/actionLay"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:horizontalSpacing="5dp"
+        android:numColumns="4"
+        android:scrollbarSize="0dp"
+        android:verticalSpacing="5dp" />
+
+    <LinearLayout
+        android:id="@+id/actionLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/_3sdp">
+
+            <CheckBox
+                android:id="@+id/selectAll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/listChoiceIndicatorMultiple"
+                android:backgroundTint="@color/black"
+                android:button="@null" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/deleteIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:padding="@dimen/_4sdp"
+                android:src="@drawable/delete_icon"
+                app:tint="@color/black" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/no_items_found"
+        layout="@layout/no_items_found" />
+
+</RelativeLayout>
